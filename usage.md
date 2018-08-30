@@ -4,7 +4,9 @@
 
 > npm install -g node-sass
 
-## Compile
+## Compile 방법
+
+* Syntax
 
 > node-sass [option] &lt;inputFilePath> [outpuFilePath]
 
@@ -20,4 +22,4 @@
 
 > node-sass --watch scss/main.css css/main.css
 
-* **VSCode 사용자**는 extension인 (https://marketplace.visualstudio.com/items?itemName=ritwickdey.live-sass)를 설치하면 위의 '--watch' option을 쓸 필요없이 지정한 경로에 자동으로 .css 를 update해 준다.
+* **VSCode 사용자**는 extension인 'live sass compiler'를 설치하면 위의 '--watch' option을 쓸 필요없이 지정한 경로에 자동으로 .css 를 update해 준다.
